@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angles of Triangles</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap");
+      .navigation .nav-brand {
+        color: inherit;
+        font-family: "Stalinist One", cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">Harikesh Patel</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://kumarharikesh-portfolio.netlify.app/index.html"
+            >Home</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link link-active"
+            href="https://kumarharikesh-portfolio.netlify.app/projects.html"
+            >Projects</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://kumarharikesh-portfolio.netlify.app/blogs.html"
+            >Blogs</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <h2>Learn more about triangles..</h2>
+      <nav class="nav">
+        <a href="angles-triangles.html" class="link link-active"
+          >Is Triangle?</a
+        >
+        <a href="calculate-hypo.html">Hypotenuse</a>
+        <a href="calculate-area.html">Triangle Area</a>
+        <a href="index.html">Quiz</a>
+      </nav>
+    </header>
+
+    <form class="angles-triangles-main" id="angles-triangles-form" action="">
+
+      <h1>Angles of triangles ▲</h1>
+
+      <div>
+        <label class="input-label" for="Angle1">Angle1 : </label>
+        <input type="number" class="input-text angle-input" placeholder="Enter a angle" required/>
+      </div>
+      
+      <div>
+        <label class="input-label" for="Angle2">Angle2 : </label>
+        <input type="number" class="input-text angle-input" placeholder="Enter a angle" required/>
+      </div>
+
+      <div>
+        <label class="input-label" for="Angle3">Angle3 : </label>
+        <input type="number" class="input-text angle-input" placeholder="Enter a angle" required/>
+      </div>
+
+      <div id="flexbox">
+        <div >
+          <button class="btn-check" type="submit" id="submit">Triangle Check</button>
+        </div>
+        <div >
+          <button class="btn-check" type="reset" id="clear">Clear All</button>
+        </div>
+      </div>
+
+      <h3><textarea class="output" id="output" type="text" placeholder="Output will be shown here..." readonly></textarea></h3>
+
+    </from>
+
+    <footer class="footer" id="footer">
+      <div class="footer-header">Connect with me</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://github.com/kumarharikesh/"
+            target="_blank"
+          >
+            Github
+          </a>
+        </li>
+        <span style="color: rgba(205, 200, 200, 0.85);">|</span>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.hackerrank.com/Harikesh_Patel/"
+            target="_blank"
+          >
+            HackerRank
+          </a>
+        </li>
+        <span style="color: rgba(205, 200, 200, 0.85);">|</span>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://twitter.com/Harikes49467657/"
+            target="_blank"
+          >
+            Twitter
+          </a>
+        </li>
+        <span style="color: rgba(205, 200, 200, 0.85);">|</span>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/harikesh-patel-357171191/"
+            target="_blank"
+          >
+            Linkedin
+          </a>
+        </li>
+      </ul>
+      <small style="margin-top: 20px;">© HarryStyle. All rights reserved</small>
+    </footer>
+    <script src="./scripts/angles-triangles.js"></script>
+  </body>
+</html>
