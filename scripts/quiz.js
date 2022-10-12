@@ -54,7 +54,7 @@ async function calculateScore() {
     }
     index = index + 1;
   }
-  outputTag.innerText = "Your score is " + score;
+  outputTag.innerText = "Your score is " + score + "/10";
   outputTag.style.color = "green";
   outputTag.style.textAlign = "center";
 }
