@@ -4,14 +4,14 @@ const outputTag = document.querySelector(".output");
 
 const correctAnswers = [
   "90°",
-  "right angled",
-  "one right angle",
+  "Right angled",
+  "One right angle",
   "12, 16, 20",
   "Equilateral triangle",
   "100°",
   "30°",
   "a + b + c",
-  "no",
+  "No",
   "45°"
 ];
 
