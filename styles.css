@@ -242,7 +242,9 @@ li {
 }
 
 /** footers **/
-
+#footer {
+    margin-bottom: 0px;
+}
 .footer {
   background-color: #5e832d;
   padding: 2rem 1rem;
