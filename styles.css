@@ -245,6 +245,7 @@ li {
 .footer {
   background-color: #5e832d;
   padding: 2rem 1rem;
+  padding-bottom: 15px;
   text-align: center;
   color: white;
   box-shadow: 0px -10px 20px 0px rgb(0 0 0 / 30%), 2px 1px 0px 0px rgb(0 0 0 / 19%);
@@ -253,7 +254,7 @@ li {
 .footer .link {
   color: white;
   transition: 0.3s;
-  margin-left: 20px;
+  padding: 10px 10px;
 }
 .footer .link:hover {
   color: rgba(255, 255, 255, 0.621);
@@ -267,5 +268,5 @@ li {
 
 .footer ul {
   padding-inline-start: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
